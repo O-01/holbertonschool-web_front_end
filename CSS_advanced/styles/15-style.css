@@ -379,13 +379,23 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
-    box-sizing: content-box;
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
