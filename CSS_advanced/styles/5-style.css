@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
