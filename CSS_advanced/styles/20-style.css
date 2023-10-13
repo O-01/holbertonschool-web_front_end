@@ -533,6 +533,12 @@ ul.row {
   padding: 0.5rem;
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
@@ -543,13 +549,6 @@ ul.row {
   text-align: right;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: none;
-}
-
 .footer {
   padding: var(--footer-padding);
 }
-
